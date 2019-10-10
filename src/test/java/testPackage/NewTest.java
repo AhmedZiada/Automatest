@@ -28,6 +28,8 @@ public class NewTest {
 //		
 //	}
 
+	
+	
 	@BeforeMethod
 	public void beforeMethod() {
 		System.setProperty("webdriver.gecko.driver","src/test/resources/Drivers/geckodriver");
