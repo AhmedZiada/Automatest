@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23817" started-at="2019-10-09T16:53:56 EET" finished-at="2019-10-09T16:54:20 EET">
+  <suite name="Default suite" duration-ms="21257" started-at="2019-10-10T15:43:51 EET" finished-at="2019-10-10T15:44:12 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23817" started-at="2019-10-09T16:53:56 EET" finished-at="2019-10-09T16:54:20 EET">
+    <test name="Default test" duration-ms="21257" started-at="2019-10-10T15:43:51 EET" finished-at="2019-10-10T15:44:12 EET">
       <class name="testPackage.NewTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="2790" started-at="2019-10-09T16:53:56 EET" finished-at="2019-10-09T16:53:59 EET">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="3028" started-at="2019-10-10T15:43:51 EET" finished-at="2019-10-10T15:43:54 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="NavigateForQueryAndAssertSecondResult()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="NavigateForQueryAndAssertSecondResult" duration-ms="5910" started-at="2019-10-09T16:53:59 EET" finished-at="2019-10-09T16:54:05 EET">
+        <test-method status="FAIL" signature="NavigateForQueryAndAssertSecondResult()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="NavigateForQueryAndAssertSecondResult" duration-ms="3023" started-at="2019-10-10T15:43:54 EET" finished-at="2019-10-10T15:43:57 EET">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: (//div[@class='ellip'])[2]
@@ -19,8 +19,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QA-Ziada', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-31-generic', java.version: '1.8.0_222'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191002193559, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 3788, moz:profile: /tmp/rust_mozprofilefN1ao0, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.0.0-31-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cb8dade2-2c74-489b-8ca9-e8196496eb89
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191002193559, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 28021, moz:profile: /tmp/rust_mozprofileAanRBI, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.0.0-31-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 519c3925-0931-4725-8691-d78918d927f9
 *** Element info: {Using=xpath, value=(//div[@class='ellip'])[2]}]]>
             </message>
             <full-stacktrace>
@@ -29,8 +29,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QA-Ziada', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-31-generic', java.version: '1.8.0_222'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191002193559, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 3788, moz:profile: /tmp/rust_mozprofilefN1ao0, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.0.0-31-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cb8dade2-2c74-489b-8ca9-e8196496eb89
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191002193559, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 28021, moz:profile: /tmp/rust_mozprofileAanRBI, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.0.0-31-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 519c3925-0931-4725-8691-d78918d927f9
 *** Element info: {Using=xpath, value=(//div[@class='ellip'])[2]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -81,19 +81,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateForQueryAndAssertSecondResult -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="afterMethod" is-config="true" duration-ms="2786" started-at="2019-10-09T16:54:05 EET" finished-at="2019-10-09T16:54:08 EET">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="afterMethod" is-config="true" duration-ms="2783" started-at="2019-10-10T15:43:57 EET" finished-at="2019-10-10T15:44:00 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="2272" started-at="2019-10-09T16:54:08 EET" finished-at="2019-10-09T16:54:10 EET">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="2266" started-at="2019-10-10T15:44:00 EET" finished-at="2019-10-10T15:44:02 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="navigateToGoogleHomePageAndAssert()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="navigateToGoogleHomePageAndAssert" duration-ms="7224" started-at="2019-10-09T16:54:10 EET" finished-at="2019-10-09T16:54:17 EET">
+        <test-method status="PASS" signature="navigateToGoogleHomePageAndAssert()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="navigateToGoogleHomePageAndAssert" duration-ms="8123" started-at="2019-10-10T15:44:02 EET" finished-at="2019-10-10T15:44:10 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToGoogleHomePageAndAssert -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="afterMethod" is-config="true" duration-ms="2802" started-at="2019-10-09T16:54:17 EET" finished-at="2019-10-09T16:54:20 EET">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.NewTest@1dfe2924]" name="afterMethod" is-config="true" duration-ms="2002" started-at="2019-10-10T15:44:10 EET" finished-at="2019-10-10T15:44:12 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
